@@ -15,7 +15,7 @@ public class IndexController {
 
     @RequestMapping(value = "/go/{id}")
     public String haha(@PathVariable int id){
-        return "你输入变量是：" + id;
+        return "你输入变量是222：" + id;
     }
 
 }
